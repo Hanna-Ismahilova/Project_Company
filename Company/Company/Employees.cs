@@ -53,7 +53,8 @@ namespace Finances.Employees
             ShowEmployees();
             Console.Write("Enter ID to delete employee: ");
             var id = Convert.ToInt32(Console.ReadLine());
-            ListOfEmployees.Where(x => x.EmployeeId == id);
+            //where to jest Linq
+            ListOfEmployees.Remove(ListOfEmployees.Where(x => x.EmployeeId == id).First()); 
         }
 
         //temat5/zadanie3
@@ -64,6 +65,15 @@ namespace Finances.Employees
             {
                 Console.WriteLine($"ID: {employee.EmployeeId}   Name: {employee.FirstName}  Last name: {employee.LastName}  Age: {employee.Age}");
             }
+        }
+
+        //temat5/zadanie3
+        public Employee GetEmployee()
+        {
+            ShowEmployees();
+            Console.Write("Enter employee id: ");
+            var id = Convert.ToInt32(Console.ReadLine());
+            return ListOfEmployees.First(x => x.EmployeeId == id);
         }
 
     }

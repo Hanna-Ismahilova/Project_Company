@@ -10,6 +10,7 @@ namespace ManageEmployees
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
