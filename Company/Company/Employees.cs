@@ -54,7 +54,7 @@ namespace Finances.Employees
             Console.Write("Enter ID to delete employee: ");
             var id = Convert.ToInt32(Console.ReadLine());
             //where to jest Linq
-            ListOfEmployees.Remove(ListOfEmployees.Where(x => x.EmployeeId == id).First()); 
+            ListOfEmployees.Remove(ListOfEmployees.Where(employee => employee.EmployeeId == id).First()); 
         }
 
         //temat5/zadanie3
