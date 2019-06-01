@@ -13,6 +13,7 @@ namespace Finances.Employees
         {
             return new Employee();
         }
+
         public static Employee CreateEmployee(int id, string firstName, string lastName, int age)
         {
             return new Employee(id, firstName, lastName, age);

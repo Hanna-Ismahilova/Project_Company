@@ -30,11 +30,11 @@ namespace Finances.Employees
         public void AddEmployeeDemo() 
         {
             var id = ListOfEmployees.Count + 1;
-            Console.Write("Enter first name:");
+            Console.Write("Enter first name: ");
             var firstName = Console.ReadLine();
-            Console.Write("Enter last name:");
+            Console.Write("Enter last name: ");
             var lastName = Console.ReadLine();
-            Console.Write("Enter age:");
+            Console.Write("Enter age: ");
             var age = Convert.ToInt32(Console.ReadLine());
 
             foreach (var employee in ListOfEmployees)
