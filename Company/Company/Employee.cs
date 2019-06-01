@@ -180,5 +180,25 @@ namespace Finances.Employees
         {
             _changeSomething += msg;
         }
+
+        //temat9/zadanie1
+        public delegate void SalaryHasChanged();
+
+        public event SalaryHasChanged ChangeSalary;
+
+        protected virtual void OnSalaryChange()
+        {
+            if (ChangeSalary != null)
+                ChangeSalary();
+            else
+                Console.WriteLine($"New Salary: {Salary}");
+        }
+
+        public void SalaryChange(int newSalary)
+        {
+            Console.WriteLine($"Old Salary; {Salary}");
+            Salary = newSalary;
+            OnSalaryChange();
+        }
     }
 }

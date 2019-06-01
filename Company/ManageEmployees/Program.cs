@@ -7,24 +7,26 @@ namespace ManageEmployees
     {
         static void Main(string[] args)
         {
-
-            /*
-            //temat8/zadanie1,2
-            var employee2 = EmployeeFactory.CreateEmployee(2, "RandomName2", "RandomLastName2", 18);
-            Console.WriteLine($"Before changes: {employee2.FirstName} {employee2.LastName}");
-            Action<string, string> changeSomething = employee2.ChangeEmployeeName;
-            changeSomething("DelegateName2", "DelegateLastName2");
-            Console.WriteLine($"After changes:  {employee2.FirstName} {employee2.LastName}");
-            Console.ReadKey();
-            */
-
-            //temat8/zadanie1,2
+            //temat8/zadanie1,2,3
             var employee = EmployeeFactory.CreateEmployee(1, "RandomName", "RandomLastName", 18);
             Console.WriteLine($"Before changes: {employee.FirstName} {employee.LastName}");
+            Action<string, string> changeName = employee.ChangeEmployeeName;
             employee.AddCallback(CallbackInfo);
-            employee.ChangeEmployeeName("DelegateName", "DelegateLastName");
+            changeName("DelegateName", "DelegateLastName");
             Console.WriteLine($"After changes:  {employee.FirstName} {employee.LastName}");
             Console.ReadKey();
+            Console.ReadKey();
+
+            //temat9/zadanie1
+            var employee2 = new Employee
+            {
+                Id = 2,
+                FirstName = "EventSalaryTest",
+                Salary = 5000
+            };
+
+            employee2.SalaryChange(7000);
+            Console.ReadLine();
         }
         //temat8/zadanie1,2
         static void CallbackInfo(string message)
@@ -34,5 +36,6 @@ namespace ManageEmployees
         }
 
     }
-    }
+
 }
+
