@@ -121,5 +121,47 @@ namespace Finances.Employees
             Console.WriteLine(nameOfPayroll);
         }
 
+        //temat7/zadanie1
+        public static bool operator ==(Employee employee1, Employee employee2)
+        {
+            if ((employee1.FirstName == employee2.FirstName) && (employee1.LastName == employee2.LastName))
+                return true;
+            else
+                return false;
+        }
+        //temat7/zadanie1
+        public static bool operator !=(Employee employee1, Employee employee2)
+        {
+            if ((employee1.FirstName != employee2.FirstName) && (employee1.LastName != employee2.LastName))
+                return true;
+            else
+                return false;
+        }
+
+        //temat7/zadanie2
+        public static bool operator <(Employee employee1, Employee employee2)
+        {
+            bool status = employee1.Salary < employee2.Salary;
+            return status;
+        }
+
+        //temat7/zadanie2
+        public static bool operator >(Employee employee1, Employee employee2)
+        {
+            bool status = employee1.Salary > employee2.Salary;
+            return status;
+        }
+
+        //temat7/zadanie3
+        public static implicit operator double(Employee employee)
+        {
+            return (double)employee.Salary;
+        }
+
+        //temat7/zadanie4
+        public static int operator +(Employee employee, int number)
+        {
+            return employee.Salary + number;
+        }
     }
 }
