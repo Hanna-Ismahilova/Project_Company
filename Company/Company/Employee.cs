@@ -163,5 +163,22 @@ namespace Finances.Employees
         {
             return employee.Salary + number;
         }
+
+        //temat8/zadanie1,2
+        public void ChangeEmployeeName(string firstName, string lastName)
+        {
+            FirstName = firstName;
+            LastName = lastName;
+            _changeSomething("Name has been changed.");
+        }
+        //temat8/zadanie1,2
+        public delegate void ChangeSomething(string message);
+        //temat8/zadanie1,2
+        private ChangeSomething _changeSomething;
+        //temat8/zadanie1,2
+        public void AddCallback(ChangeSomething msg)
+        {
+            _changeSomething += msg;
+        }
     }
 }
