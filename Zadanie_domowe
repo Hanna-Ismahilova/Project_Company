@@ -1,0 +1,13 @@
+Zadanie domowe:
+
+1. Wyswietl liczby od 0 do 1000
+1.1 Kazdy w nowej linii
+1.2 Kazdy w tej samej linii
+
+2.Do sklepu powinno moc wejsc kilku Klientow
+2.1. Klient ma nazwisk, imie, stan portfela (z wartoscia po przycinku, np. 100.00)
+2.2.Sklep musi miec metode KlientWchodziDoSklepu
+2.3.Sklep musi miec metode KlientWychodziZeSklepu 
+2.4. Sklep pokazuje jakich ma aktualnie klientow 
+
+Klient moze miec mozliwosc zakupu produktow. - TBU
