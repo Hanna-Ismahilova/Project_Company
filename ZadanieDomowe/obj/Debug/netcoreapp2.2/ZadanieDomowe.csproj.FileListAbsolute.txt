@@ -1,0 +1,11 @@
+C:\Users\Hanna_Ismahilova\Documents\Visual Studio 2017\Projects\Szkolenie1\Project_Company\ZadanieDomowe\bin\Debug\netcoreapp2.2\ZadanieDomowe.deps.json
+C:\Users\Hanna_Ismahilova\Documents\Visual Studio 2017\Projects\Szkolenie1\Project_Company\ZadanieDomowe\bin\Debug\netcoreapp2.2\ZadanieDomowe.runtimeconfig.json
+C:\Users\Hanna_Ismahilova\Documents\Visual Studio 2017\Projects\Szkolenie1\Project_Company\ZadanieDomowe\bin\Debug\netcoreapp2.2\ZadanieDomowe.runtimeconfig.dev.json
+C:\Users\Hanna_Ismahilova\Documents\Visual Studio 2017\Projects\Szkolenie1\Project_Company\ZadanieDomowe\bin\Debug\netcoreapp2.2\ZadanieDomowe.dll
+C:\Users\Hanna_Ismahilova\Documents\Visual Studio 2017\Projects\Szkolenie1\Project_Company\ZadanieDomowe\bin\Debug\netcoreapp2.2\ZadanieDomowe.pdb
+C:\Users\Hanna_Ismahilova\Documents\Visual Studio 2017\Projects\Szkolenie1\Project_Company\ZadanieDomowe\obj\Debug\netcoreapp2.2\ZadanieDomowe.csproj.CoreCompileInputs.cache
+C:\Users\Hanna_Ismahilova\Documents\Visual Studio 2017\Projects\Szkolenie1\Project_Company\ZadanieDomowe\obj\Debug\netcoreapp2.2\ZadanieDomowe.AssemblyInfoInputs.cache
+C:\Users\Hanna_Ismahilova\Documents\Visual Studio 2017\Projects\Szkolenie1\Project_Company\ZadanieDomowe\obj\Debug\netcoreapp2.2\ZadanieDomowe.AssemblyInfo.cs
+C:\Users\Hanna_Ismahilova\Documents\Visual Studio 2017\Projects\Szkolenie1\Project_Company\ZadanieDomowe\obj\Debug\netcoreapp2.2\ZadanieDomowe.dll
+C:\Users\Hanna_Ismahilova\Documents\Visual Studio 2017\Projects\Szkolenie1\Project_Company\ZadanieDomowe\obj\Debug\netcoreapp2.2\ZadanieDomowe.pdb
+C:\Users\Hanna_Ismahilova\Documents\Visual Studio 2017\Projects\Szkolenie1\Project_Company\ZadanieDomowe\obj\Debug\netcoreapp2.2\ZadanieDomowe.csprojAssemblyReference.cache
