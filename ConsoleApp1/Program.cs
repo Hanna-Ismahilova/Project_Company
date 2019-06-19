@@ -27,13 +27,24 @@ namespace ConsoleApp1
             biedronka.piekarniks.Add(piekarnik2);
 
             biedronka.PrintPiekarniks();
-          
 
+
+
+            Klient klient1 = new Klient()
+            {
+                Id = 1,
+                klientImie = "Janusz",
+                klientNazwisko = "Nowak",
+                accountStatus = 25000.77
+            };
+
+            biedronka.KlientWchodziDoSklepu(klient1);
+            biedronka.KlientWychodziZeSklepu(klient1);
+
+
+            Helpers.DisplayKlient(klient1.klientImie, klient1.klientNazwisko, klient1.accountStatus);
+      
         
-
-
-
-
 
 
 
