@@ -9,8 +9,5 @@ namespace ConsoleApp1
         public bool isON { get; set; }
         public int tempreture { get; set; }
         public string name { get; set; }
-
-
-
     }
 }
