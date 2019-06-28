@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hanna_Ismahilova\\Documents\\Visual Studio 2017\\Projects\\Szkolenie1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\Hanna_Ismahilova\\Documents\\Visual Studio 2017\\Projects\\Szkolenie1\\Project_Company\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\Hanna_Ismahilova\\Documents\\Visual Studio 2017\\Projects\\Szkolenie1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectPath": "C:\\Users\\Hanna_Ismahilova\\Documents\\Visual Studio 2017\\Projects\\Szkolenie1\\Project_Company\\ConsoleApp1\\ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\Hanna_Ismahilova\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hanna_Ismahilova\\Documents\\Visual Studio 2017\\Projects\\Szkolenie1\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\Hanna_Ismahilova\\Documents\\Visual Studio 2017\\Projects\\Szkolenie1\\Project_Company\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,5 +1,5 @@
 ﻿using System;
-
+using System.Collections.Generic;
 
 namespace ConsoleApp1
 {
@@ -38,11 +38,41 @@ namespace ConsoleApp1
                 accountStatus = 25000.77
             };
 
-            biedronka.KlientWchodziDoSklepu(klient1);
-            biedronka.KlientWychodziZeSklepu(klient1);
+            Klient klient2 = new Klient()
+            {
+                Id = 2,
+                klientImie = "Jan",
+                klientNazwisko = "Kowalski",
+                accountStatus = 10000.88
+            };
 
+            List<Klient> klientsFromApp = new List<Klient>();
+
+            klientsFromApp.Add(klient1);
+            klientsFromApp.Add(klient2);
+            Klient nowakVIP = new Klient()
+            {
+                Id = 3,
+                klientImie = "Antoni",
+                klientNazwisko = "NowakVip",
+                accountStatus = 4444
+            };
+
+            //biedronka.KlientWchodziDoSklepu(klient1);
+            ////biedronka.KlientWychodziZeSklepu(klient1);
+
+            //biedronka.KlientWchodziDoSklepu(klient2);
+            //biedronka.KlientWychodziZeSklepu(klient2);
+            biedronka.KlientVIP_Plus_GrupaKlientow(nowakVIP,klientsFromApp);
+
+
+        
+            
+
+            biedronka.PrintKlients();
 
             Helpers.DisplayKlient(klient1.klientImie, klient1.klientNazwisko, klient1.accountStatus);
+            Helpers.DisplayKlient(klient2.klientImie, klient2.klientNazwisko, klient2.accountStatus);
       
         
 
