@@ -11,6 +11,9 @@ namespace ControlCheck
 
             List<Stanowiska> stanowiska = new List<Stanowiska>();
 
+            List<Menu> menu = new List<Menu>();
+
+
 
         }
     }

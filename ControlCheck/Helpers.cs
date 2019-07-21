@@ -41,14 +41,90 @@ namespace ControlCheck
             return stanowiska;
         }
 
-
-        public void WygenerowanieDanycPracownika()
+        public List<Pracownik> WygenerowanieDanycPracownika()
         {
-            var person = new Bogus.Person();
+            var pracownik = new List<Pracownik>();
 
-            person.();
+            //var person = new Bogus.Person();
+
+            var pracownik1 = new Pracownik()
+            {
+                Id = 1,
+                Imie = "Jan",
+                Nazwisko = "Kowalski",
+                Wiek = 25,
+                Zarobki = 2500,
+                Stanowisko = "Junior"
+            };
+            pracownik.Add(pracownik1);
+
+            var pracownik2 = new Pracownik()
+            {
+                Id = 2,
+                Imie = "Marta",
+                Nazwisko = "Martyszewska",
+                Wiek = 30,
+                Zarobki = 5000,
+                Stanowisko = "Middle"
+            };
+            pracownik.Add(pracownik2);
+
+            var pracownik3 = new Pracownik()
+            {
+                Id = 3,
+                Imie = "Grazyna",
+                Nazwisko = "Boo",
+                Wiek = 35,
+                Zarobki = 7000,
+                Stanowisko = "Senior"
+            };
+            pracownik.Add(pracownik3);
+
+            return pracownik;
         }
 
+        public List<Menu> DisplayMenu()
+        {
 
+            var options = new List<Menu>();
+
+            var option1 = new Menu()
+            {
+                MenuOption = "1. Wyszukaj po stanowisku"
+            };
+            options.Add(option1);
+
+            var option2 = new Menu()
+            {
+                MenuOption = "2. Wyszukaj po zarobkach"
+            };
+            options.Add(option2);
+
+            var option3 = new Menu()
+            {
+                MenuOption = "3. Wyszukaj nazwe stanowiska wg. kwoty"
+            };
+            options.Add(option3);
+
+            return options;
+        }
+
+        public void WyszukajPoStanowisku()
+        {
+
+
+        }
+
+        public void WyszukajPoZarobkach()
+        {
+
+
+        }
+
+        public void WyszukaNazweStanowiskaWgKwoty()
+        {
+
+
+        }
     }
 }
